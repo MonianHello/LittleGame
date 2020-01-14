@@ -1,7 +1,7 @@
 @echo off
 mode con cols=100 lines=40
 color fc
-title 赵春旭制作
+title MonianHello制作
 taskkill /f /im wscript.exe>nul
 echo 警告！如要关闭游戏请使用主菜单的 m.退出游戏
 ping -n 2 127.1>nul
@@ -11,7 +11,7 @@ echo 如果手欠请使用手欠紧急工具
 ping -n 3 127.1>nul
 goto musiccomming
 :zcd
-title 赵春旭制作
+title MonianHello制作
 mode con cols=100 lines=40
 set zongfengshu=0
 cls
@@ -324,14 +324,14 @@ if %shuru30% == zcd goto zcd
 goto menu434
 ::下面是猜数字
 :qidian
-title 赵春旭制作
+title MonianHello制作
 cls
 color fc
 set /p xsd=请输入猜的最小数:
 set /p ysd=请输入猜的最大数:
 set /a shuzi=%random%%%(ysd-xsd+1)+xsd
 set ss=0
-title 赵春旭制作
+title MonianHello制作
 color fc
 set /p cishu=请输入猜的次数:
 :zym
@@ -398,13 +398,13 @@ if %shuru2% == zcd goto zcd
 goto qidian
 :hkxb
 mode con cols=100 lines=40
-title 赵春旭编译
+title MonianHello编译
 color 4f
 echo                                     现在时间:%date%
 echo                                 ╔══════════════╗
 echo                                 ║当电脑黑客遇上电脑小白的故事║
 echo                                 ╠══════════════╣
-echo                                 ║         赵春旭编译         ║
+echo                                 ║         MonianHello编译         ║
 echo                                 ╠══════════════╣
 echo                                 ║   最后修订时间:2018/3/12   ║
 echo                                 ╚══════════════╝                          
@@ -1263,7 +1263,7 @@ if wzqjs == cc goto wuziqi
 if wzqjs == zcd goto zcd
 goto zcd
 :pintu
-title 赵春旭制作
+title MonianHello制作
 mode con cols=35 lines=30
 color 9f
 echo.&
@@ -1464,7 +1464,7 @@ set arrow1=→&set arrow2=  &set arrow3=  &set arrow4=  &set arrow5=
 cls
 color 3f
 mode con cols=85 lines=29
-title by.赵春旭
+title by.MonianHello
 echo.
 echo          █████         ███          ███  ████     ███
 echo        ███████       ███        ███    ████    ███   
